@@ -51,8 +51,8 @@ namespace SvgColourPaletteExtractor
             Console.WriteLine("--- Old Palette ---");
             Console.WriteLine(htmlPage.ToString());
 
-            //var fleurDeLisColour = ColorTranslator.FromHtml("#e1ab2a");
             //var shamrockColour = ColorTranslator.FromHtml("#08773f");
+            //var fleurDeLisColour = ColorTranslator.FromHtml("#e1ab2a");
             //var newColourName = "Original";
 
             //var shamrockColour = ColorTranslator.FromHtml("#660066");
@@ -60,7 +60,7 @@ namespace SvgColourPaletteExtractor
             //var newColourName = "Lilac";
 
             var shamrockColour = ColorTranslator.FromHtml("#003660");
-            var fleurDeLisColour = ColorTranslator.FromHtml("#007fe1");
+            var fleurDeLisColour = ColorTranslator.FromHtml("#e1ab2a");
             var newColourName = "Blue";
 
             var newColours = new List<string>(oldColours.Count);
